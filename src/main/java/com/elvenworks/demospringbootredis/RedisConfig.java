@@ -14,7 +14,7 @@ import org.springframework.data.redis.serializer.GenericToStringSerializer;
 
 @Configuration
 @ComponentScan("com.elvenworks.demospringbootredis")
-//@EnableRedisRepositories(basePackages = "com.elvenworks.demospringbootredis.repo")
+@EnableRedisRepositories(basePackages = "com.elvenworks.demospringbootredis.repo")
 @PropertySource("classpath:application.properties")
 public class RedisConfig {
 
